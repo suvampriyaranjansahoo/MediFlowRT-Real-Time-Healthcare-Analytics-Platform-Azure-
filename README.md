@@ -38,7 +38,6 @@ The pipeline ingests streaming data, processes it in **Databricks (PySpark)**, a
 **Part 1 – Data Engineering:** Build the real-time ingestion + transformation pipeline.  
 **Part 2 – Analytics:** Connect Synapse to Power BI and design an interactive dashboard for hospital KPIs.
 
-For a full Youtube Tutorial of this project click this [Part-1 link](https://youtu.be/01LVHch-1x0?si=x70zJDO8OlK-bYJk)/[Part-2 link](https://youtu.be/1esHP63zLtM?si=e-pK7EcpK7yEOAyP).
 
 ## Pipeline
 
@@ -174,10 +173,4 @@ The **Healthcare Patient Flow Dashboard** provides insights into:
 This project is licensed under the **MIT License**.  
 Feel free to use and adapt for learning or production.
 
----
 
-**Author**: *Jaya Chandra Kadiveti* 
-
-**LinkedIn**: [username](https://www.linkedin.com/in/jayachandrakadiveti/) 
-
-**Contact**: [datawithjay1@gmail.com](mailto:datawithjay1@gmail.com)
