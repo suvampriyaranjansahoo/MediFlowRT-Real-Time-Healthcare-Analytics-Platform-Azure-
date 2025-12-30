@@ -122,16 +122,16 @@ The **Gold layer** data in Synapse follows a **star schema** for optimized analy
 ---
 
 ### **4. Databricks Processing**
-- [**Notebook 1**](databricks-notebooks/01_bronze_rawdata.py): Reads Event Hub stream into Bronze.
-- [**Notebook 2**](databricks-notebooks/02_silver_cleandata.py): Cleans and validates schema.
-- [**Notebook 3** ](databricks-notebooks/03_gold_transform.py): Aggregates and prepares star schema tables.
+- [**Notebook 1**](https://github.com/suvampriyaranjansahoo/MediFlowRT-Real-Time-Healthcare-Analytics-Platform-Azure-/blob/main/databricks_notebook%2F01_bronze_rawdata.py): Reads Event Hub stream into Bronze.
+- [**Notebook 2**](https://github.com/suvampriyaranjansahoo/MediFlowRT-Real-Time-Healthcare-Analytics-Platform-Azure-/blob/main/databricks_notebook%2F02_silver_cleandata.py): Cleans and validates schema.
+- [**Notebook 3** ](https://github.com/suvampriyaranjansahoo/MediFlowRT-Real-Time-Healthcare-Analytics-Platform-Azure-/blob/main/databricks_notebook%2F02_gold_cleandata.py): Aggregates and prepares star schema tables.
 
 ---
 
 ### **5. Synapse SQL Pool**
 - Created **dedicated SQL Pool**.
 - Executed schema and fact/dimension creation queries from:
-  - [DDL_Qureis](sqlpool-quries/SQL_pool_quries.sql)
+  - [DDL_Qureis](https://github.com/suvampriyaranjansahoo/MediFlowRT-Real-Time-Healthcare-Analytics-Platform-Azure-/blob/main/SQL%2FSQL_views_DDL.sql)
 
 ---
 
